@@ -1,0 +1,60 @@
+.container{
+    display: flex;
+}
+
+.border{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-width: 10px;
+    border-color:tomato;
+    
+}
+
+.bordaImagem1{
+    border: 20px solid transparent;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border-image: url(monalisa.png) 5% round;
+}
+
+.bordaImagem2{
+    border: 20px solid transparent;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border-image: url(monalisa.png) 50% round;
+}
+
+.bordaImagem3{
+    border: 20px solid transparent;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border-image: url(monalisa.png) 40% stretch;
+}
+
+.bordaImagem4{
+    border: 20px solid transparent;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border-image: url(monalisa.png) 100% round;
+}
+
+.bordaImagem5{
+    border: 20px solid transparent;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border-image: url(monalisa.png) 25% stretch;
+}
+
+.bordaImagem6{
+    border: 20px solid transparent;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border-image: url(monalisa.png) 40% repeat;
+}
